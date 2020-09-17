@@ -5,5 +5,6 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('/', admin.site.urls),
     path('api/', include('instapic.urls')),
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
