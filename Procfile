@@ -1,1 +1,1 @@
-web: gunicorn dpic.wsgi --log-file -
+web: gunicorn dpic.wsgi
