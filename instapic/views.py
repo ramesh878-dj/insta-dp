@@ -1,7 +1,7 @@
 import instaloader
-import shutil
-import cv2
-import glob
+#import shutil
+#import cv2
+#import glob
 from django.conf import settings
 from instapic.models import Instapic
 from .api.serializers import InstapicSerializer
