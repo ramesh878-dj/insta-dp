@@ -25,7 +25,7 @@ SECRET_KEY = '3(kw3mqtgp+0n8%_=msdpi$hg-%(66&hod4*y-29i=^pho9-0n'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['instapic-service.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
